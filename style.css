@@ -843,3 +843,52 @@ body {
     background-size: cover;
     color: var(--text-color);
 }
+/* General Mobile Styles */
+@media only screen and (max-width: 767px) {
+    body {
+      padding: 10px;
+    }
+    
+    /* Adjust layout for smaller screens */
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .header, .footer {
+      text-align: center;
+    }
+  
+    /* Ensure images are responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Stack elements vertically */
+    .nav, .content, .sidebar {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    /* Adjust text for readability on mobile */
+    h1, h2, h3 {
+      font-size: 1.5em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  
+    /* Buttons adjustment for mobile */
+    .btn {
+      padding: 10px 20px;
+      font-size: 1em;
+    }
+    
+    /* Maintain animations and colors */
+    .animated-element {
+      /* No changes, animations remain */
+    }
+  }
+  
